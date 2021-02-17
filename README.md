@@ -1,1 +1,2 @@
-Example project to explain Grunt
+# grunt-example
+Example grunt project for demo purposes
