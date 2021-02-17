@@ -1,0 +1,3 @@
+copy: {
+    dev: { files: [{ expand: true, cwd: "<%= dir.src %>", src: ["**/*"], dest: "<%= dir.dest %>" }] }
+}

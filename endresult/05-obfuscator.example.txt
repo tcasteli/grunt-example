@@ -1,0 +1,18 @@
+obfuscator: {
+    options: {
+        // global options for the obfuscator
+        banner: '// obfuscated for our convenience. Nothing to see here...\n'
+    },
+    prd: {
+        options: {
+            // options for each sub task
+            debugProtection: true,
+            debugProtectionInterval: true
+        },
+        files: {
+            '': [
+                'dist/Component-preload.js'
+            ]
+        }
+    }
+}

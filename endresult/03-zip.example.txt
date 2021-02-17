@@ -1,0 +1,12 @@
+zip: {
+    dev: {
+        cwd: 'dist/',
+        src: ['dist/**/*'],
+        dest: 'dist/DevAppBuild.zip'
+    },
+    prd: {
+        cwd: 'dist/',
+        src: ['dist/**/*'],
+        dest: 'dist/PrdAppBuild.zip'
+    }
+}
